@@ -1,0 +1,73 @@
+
+body{
+    background-image: url(Images/moroccan-flower.webp);
+}
+header{
+    background-color: #ffffff;
+    margin:-7px;
+    padding: 10px;
+}
+header img{
+    padding-top:20px;
+}
+ul{
+    position: absolute;
+    display: inline-block;
+    margin:0px;
+    top: 35px;
+    right: 100px;
+}
+.link{
+ display:inline-block;
+ padding-top: 0;
+ padding: 15px;
+ font-size: large;
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+height: 250px;
+padding: 100px 50px 100px;
+float:left;
+}
+.container h1{
+    font-size: xx-large;
+    
+}
+.container p{
+    width: 300px;
+}
+.container a{
+    text-decoration: none;
+    color:rgb(35, 35, 35);
+}
+.imagesContainer{
+   float:right;
+    height:600px;
+    margin-right:0;
+    display: flex;
+    flex: row;
+    
+}
+/* .card{
+
+} */
+.image{
+    width: 300px; /* width of container */
+    height: 500px; /* height of container */
+    object-fit: contain;
+    overflow: hidden;
+    margin:5px;
+   
+    
+}
+h3{
+    background-color: #ffffff;
+    padding:10px;
+    color:black;
+    margin:0;
+    z-index: 20;
+}
